@@ -10,7 +10,7 @@ type Props = {
 
 export const Jobs = ({ jobs }: Props) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [visibleJobs, setVisibleJobs] = useState(4); // Show 2 jobs initially
+  const [visibleJobs, setVisibleJobs] = useState(4);
 
   const loadMore = () => setVisibleJobs((prev) => prev + 2);
   const filteredJobs = jobs.filter(
