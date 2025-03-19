@@ -48,7 +48,7 @@ job-listings-app/
 
 ---
 
-### Step 4: Feature
+### Step 3: Feature
 
 ```markdown
 # Job Listings App
